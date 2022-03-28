@@ -103,7 +103,7 @@ out
 
 # Nuxt.js build / generate output
 .nuxt
-# dist # use this for live view
+dist
 
 # Gatsby files
 .cache/

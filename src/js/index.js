@@ -6,7 +6,10 @@ function component () {
 
     // Lodash, now imported by this script
     element.innerHTML = _.join(
-        ['Hello', 'webpack', 'our', 'application', 'work', 'fine'], ' + ');
+        [
+            '<h2>STAGE 1</h2>', 'Hello', 'webpack<br><br>', 'application',
+            'work', 'fine', '😁',
+        ], ' ');
     element.classList.add('hello');
 
     return element;
